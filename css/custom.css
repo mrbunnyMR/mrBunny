@@ -1036,7 +1036,7 @@ footer p {
 
 .card-container .card {
   position: relative;
-  width: 105%;
+  /* width: 105%; */
   height: 450px;
   background: #232323;
   border-radius: 20px;
@@ -1062,9 +1062,9 @@ footer p {
 .card-container .card:after {
   content: "Bunny";
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 0%;
-  font-size: 6em;
+  font-size: 5em;
   font-weight: 800;
   font-style: italic;
   color: rgba(255, 255, 255, 0.04);
