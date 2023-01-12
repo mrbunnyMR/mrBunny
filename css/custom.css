@@ -1032,6 +1032,7 @@ footer p {
 
 .card-container {
   position: relative;
+  margin: 1rem 0;
 }
 
 .card-container .card {
