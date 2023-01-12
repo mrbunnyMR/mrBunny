@@ -6,6 +6,7 @@
   -moz-transition: all ease-out 0.5s !important;
   -o-transition: all ease-out 0.5s !important;
   transition: all ease-out 0.5s !important;
+  width: 100vw !important;
 }
 
 .activeNav {
@@ -83,6 +84,17 @@
 
 .section-description {
   margin-bottom: 4em;
+}
+
+/* Coffee variety */
+
+.coffee-variety-container {
+  width: 100%;
+}
+
+.coffee-variety {
+  width: 100%;
+  height: auto;
 }
 
 /* SECTION 1 - HOME */
@@ -221,8 +233,8 @@
 }
 
 .pricelist {
-  width: auto;
-  height: 50rem;
+  max-width: 60%;
+  height: auto;
 }
 
 #contact a {
