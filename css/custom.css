@@ -1,4 +1,5 @@
 /* HEADER */
+
 .mainNav {
   background-color: transparent !important;
   -webkit-transition: all ease-out 0.5s !important;
@@ -243,7 +244,7 @@
 }
 
 .logo-footer {
-  width: 200px;
+  width: 150px;
 }
 
 .footer-col_white {
@@ -282,6 +283,23 @@ footer p {
 .find-us {
   color: #ccc;
   margin-left: 0.2em;
+}
+
+.not-found-page {
+  height: 59.3%;
+}
+
+.not-found-page-container {
+  height: 100vh;
+}
+
+.button-to-home {
+  background-color: #ffd036 !important;
+  border: 1px solid transparent !important;
+}
+
+.button-to-home:hover {
+  filter: brightness(85%) !important;
 }
 
 /* @media screen and (min-width: 1400px) {
