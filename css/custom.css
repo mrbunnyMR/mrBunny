@@ -497,3 +497,47 @@ footer p {
   transform: translateY(0px);
   transition-delay: 0.7s;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .pricelist {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .lead {
+    font-size: 0.8rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .home-text {
+    margin-top: 10%;
+  }
+
+  .pricelist {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .lead {
+    font-size: 0.8rem;
+  }
+
+  .logo-footer {
+    width: 120px;
+  }
+
+  .product-title {
+    font-size: 1.1rem;
+  }
+
+  .orderNow-button {
+    visibility: hidden;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
