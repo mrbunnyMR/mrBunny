@@ -67,7 +67,8 @@
   height: 20vw;
   background: url("") green;
   background-size: 100%;
-  transform: translate(0, 100%);
+  /* transform: translate(0, 100%); */
+  top: 100%;
 }
 
 .section-bubble_type-a:after {
