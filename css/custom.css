@@ -540,10 +540,6 @@ footer p {
   .product-title {
     font-size: 1.1rem;
   }
-
-  .orderNow-button {
-    visibility: hidden;
-  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
