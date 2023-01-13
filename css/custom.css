@@ -1,5 +1,13 @@
 /* HEADER */
 
+body {
+  font-family: "BPreplay", sans-serif !important;
+}
+
+.make-bold {
+  font-weight: bold;
+}
+
 .mainNav {
   background-color: transparent !important;
   -webkit-transition: all ease-out 0.5s !important;
@@ -542,7 +550,7 @@ footer p {
   }
 
   .product-title {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
