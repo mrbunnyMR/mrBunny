@@ -47,6 +47,43 @@ body {
   color: red !important;
 }
 
+/* Floating Button */
+.floating-container {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 40px;
+  right: 40px;
+  /* margin: 35px 25px; */
+  background-color: #4caf50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+  z-index: 100000;
+  box-shadow: 0 20px 20px -10px rgba(76, 175, 80, 0.5);
+}
+
+.floating-container:hover {
+  -webkit-transform: translatey(5px);
+  transform: translatey(5px);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.calling-button {
+  display: flex;
+  /* text-decoration: none; */
+}
+
+.calling-button:hover {
+  text-decoration: none;
+}
+
+.material-icons {
+  color: #ffffff;
+}
+
 /* SECTIONS GENERAL */
 
 .section-bubble,
@@ -360,7 +397,7 @@ footer p {
 }
 
 .card-container .card:after {
-  content: "Bunny";
+  content: "Mr Bunny";
   position: absolute;
   top: 55%;
   left: 0%;
@@ -527,6 +564,11 @@ footer p {
 
   .mainNav {
     background-color: rgba(34, 34, 34, 0.8) !important;
+  }
+
+  .floating-container {
+    bottom: 20px;
+    right: 20px;
   }
 }
 
