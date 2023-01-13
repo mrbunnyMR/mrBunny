@@ -516,6 +516,10 @@ footer p {
   .lead {
     font-size: 0.8rem;
   }
+
+  .mainNav {
+    background-color: rgba(34, 34, 34, 0.8) !important;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
