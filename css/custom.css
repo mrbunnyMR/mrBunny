@@ -219,6 +219,10 @@ body {
   color: red;
 }
 
+.orderNow-button {
+  margin-top: 30% !important;
+}
+
 /* SECTION 3 - PRODUCTS */
 
 .section-bubble3 {
