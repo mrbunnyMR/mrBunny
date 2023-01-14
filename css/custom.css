@@ -48,7 +48,7 @@ body {
 }
 
 /* Floating Button */
-.floating-container {
+.floating-container-right {
   position: fixed;
   width: 40px;
   height: 40px;
@@ -64,11 +64,49 @@ body {
   box-shadow: 0 20px 20px -10px rgba(76, 175, 80, 0.5);
 }
 
-.floating-container:hover {
+.floating-container-right:hover,
+.floating-container-left-1:hover,
+.floating-container-left-2:hover {
   -webkit-transform: translatey(5px);
   transform: translatey(5px);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.floating-container-left-1 {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 40px;
+  left: 40px;
+  /* margin: 35px 25px; */
+  background-color: #4267b2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+  z-index: 100000;
+  box-shadow: 0 20px 20px -10px rgba(66, 103, 178, 0.5);
+}
+
+.floating-container-left-2 {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 100px;
+  left: 40px;
+  /* margin: 35px 25px; */
+  background-color: #f56040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+  z-index: 100000;
+  box-shadow: 0 20px 20px -10px rgba(245, 96, 64, 0.5);
+}
+
+.instagram-icon {
+  font-size: 1.2rem;
 }
 
 .calling-button {
@@ -570,9 +608,19 @@ footer p {
     background-color: rgba(34, 34, 34, 0.8) !important;
   }
 
-  .floating-container {
+  .floating-container-right {
     bottom: 20px;
     right: 20px;
+  }
+
+  .floating-container-left-1 {
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .floating-container-left-2 {
+    bottom: 80px;
+    left: 20px;
   }
 }
 
