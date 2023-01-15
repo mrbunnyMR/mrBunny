@@ -181,6 +181,12 @@ body {
   height: auto;
 }
 
+.coffee-variety-mobile {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
 /* SECTION 1 - HOME */
 
 .header-background {
@@ -633,6 +639,13 @@ footer p {
   .floating-container-left-2 {
     bottom: 80px;
     left: 20px;
+  }
+  .coffee-variety {
+    display: none;
+  }
+
+  .coffee-variety-mobile {
+    display: flex;
   }
 }
 
