@@ -676,3 +676,16 @@ footer p {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 }
+
+/* GALLERY */
+
+.close {
+  font-size: 1.5rem;
+}
+
+.gallery-image img {
+  /* opacity: 0.7; */
+  cursor: pointer;
+  margin: 1rem 0;
+  width: 100%;
+}
